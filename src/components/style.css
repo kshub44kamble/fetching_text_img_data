@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .App > h1 {
+    margin-bottom: 5px;
+  }
+  
+  .fetch-button {
+    min-width: 150px;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: rgb(4, 113, 44);
+    border: none;
+    color: rgb(225, 226, 225);
+  }
+  
+  .fetch-button:hover {
+    background-color: rgb(22, 101, 54);
+  }
+  
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .book {
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 47%;
+    color: rgb(248, 239, 239);
+    flex-basis: width;
+    background-color: rgb(27, 33, 42);
+  }
+  
+  .book h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+  }
+  
+  
